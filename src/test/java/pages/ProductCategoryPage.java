@@ -13,7 +13,7 @@ public class ProductCategoryPage extends BasePage{
     private WebElement formalShoes_Txt;
 
 
-    public static void verify_formalShoes_Txt_IsVisible(){
+    public void verify_formalShoes_Txt_IsVisible(){
         formalShoes_Txt.isDisplayed();
     }
 }
