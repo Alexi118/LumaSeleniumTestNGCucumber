@@ -10,7 +10,7 @@ public class ProductCategoryPage extends BasePage{
     }
 
     @FindBy(css="#ShoeType")
-    public static WebElement formalShoes_Txt;
+    private WebElement formalShoes_Txt;
 
 
     public static void verify_formalShoes_Txt_IsVisible(){

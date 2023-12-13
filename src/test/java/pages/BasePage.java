@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class BasePage {
-    protected WebDriver driver;
+    private WebDriver driver;
 
     public BasePage(WebDriver driver){
         this.driver = driver;
